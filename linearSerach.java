@@ -27,7 +27,6 @@ public class linearSerach {
         int indexR = linearsearch(arr, arr.length-1, key);
         if (indexR != -1)
             System.out.println("The element " + key + " is found at "+ indexR + " index of the given array.");
-
         else
             System.out.println("The element " + key + " is not found.");
     }
